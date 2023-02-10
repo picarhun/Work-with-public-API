@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Search bar -->
+    <section class="search">
+      <input
+        type="text"
+        id="filter"
+        class="search__bar"
+        onkeyup="Searching()"
+        name="search"
+        placeholder="Search Items..."
+      />
+    </section>
+    <!-- Data sides -->
+    <div class="container">
+      <header>
+        <div id="names" onclick="Sorting(n)"><h3>Name</h3></div>
+        <div id="cities" onclick="Sorting(c)"><h3>Location</h3></div>
+        <div id="emails" onclick="Sorting(e)"><h3>Email</h3></div>
+        <div id="numbers" onclick="Sorting(num)"><h3>Phone number</h3></div>
+      </header>
+      <main id="datas" class="data"></main>
+    </div>
+
+    <script src="./data.js"></script>
+  </body>
+</html>
+
+<!-- A lefele nyíl unicodeja: &#8595 -->
+<!-- A felfele nyíl unicodja: &#8593 -->

@@ -1,0 +1,16 @@
+@import 'search';
+@import 'header';
+@import 'data';
+
+html {
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: #adadad;
+  }
+
+.container{
+    margin: 4px 8%;
+    background-color: #fff;
+    border: 1px solid #fff;
+}

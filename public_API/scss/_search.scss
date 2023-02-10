@@ -1,0 +1,14 @@
+.search{
+    width: 30%;
+    position: relative;
+    margin-left: 8%;
+    margin-top: 6%;
+    
+
+    &__bar{
+        height: 30px;
+        width: 100%;
+        border: 1px solid #fff;
+        border-radius: 10px;
+    }
+}
